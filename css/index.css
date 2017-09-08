@@ -1,0 +1,86 @@
+body{
+	background: #E8E7EA;
+}
+
+header{
+	margin: 1rem;
+	position: relative;
+}
+header img{
+	display: block;
+}
+header .name{
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+}
+header .name div{
+	display: inline-block;
+	font-size: 0;
+}
+header .name div:nth-child(1){
+	width: 2.088rem;
+	height: 2.088rem;
+	vertical-align: middle;
+	margin-right: 0.5rem;
+}
+header .name div:nth-child(1) img{
+	width: 2.088rem;
+	height: 2.088rem;
+	border-radius: 50%;
+}
+header .name div:nth-child(2),header .name div:nth-child(2) a{
+	font-size: 0.6rem;
+	color: white;
+	vertical-align: middle;
+}
+header .name div:nth-child(2) p{
+	margin: 0.1rem 0;
+}
+header .vip{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+header .vip p:nth-child(1){
+	font-size: 1.8rem;
+	color: white;
+}
+header .vip p:nth-child(2){
+	font-size:0.744rem;
+	color: white;
+}
+header .bottom{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:0.8rem;
+}
+header .bottom span:nth-child(1){
+	float: left;
+	width: 5.208rem;
+	margin-left: 0.5rem;
+}
+header .bottom span:nth-child(2){
+	float: right;
+	margin-right: 0.5rem;
+	width: 0.912rem;
+}
+
+.content dl{
+	background: white;
+	margin:0;
+	margin-bottom: 0.5rem;
+	padding: 1rem;
+}
+.content dl dt{
+	font-size: 0.672rem;
+	color: #454545;
+}
+.content dl dd{
+	font-size: 0.576rem;
+	color: #A3A19D;
+	margin: 0.3rem 0 0.3rem 0.5rem;
+}
