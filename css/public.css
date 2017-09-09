@@ -26,3 +26,36 @@ a:focus,a:active{
 .clearlr{
 	zoom: 1;
 }
+
+
+
+.nav{
+	position: ;	
+	background: black;
+}
+.nav ul li{
+	float: left;
+	width: 33.33333%;
+	padding: 0.05rem 0;
+}
+.nav ul li a{
+	margin-left: 0.5rem;
+	color: #F1E6A3;
+	font-size: 0.5rem;
+}
+
+.top{
+	position: fixed;
+	right: 0;
+	bottom: 3rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: rgba(0,0,0,0.6);
+}
+.top img{
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	margin: auto;
+	margin-top: 0.25rem;
+}

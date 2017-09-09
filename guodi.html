@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+
+		<script src="js/width.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			to.setFontSize(18);
+			window.onload = function() {
+				window.onresize = function(){
+					to.setFontSize(18);
+				}
+			}
+		</script>
+	</head>
+	<body style="background: black;padding-top: ;">
+		
+		<div class="nav">
+			<ul class="clearlr">
+				<li>
+					<a href="tonggu.html" onclick="return false">带肉筒骨锅底</a>
+				</li>
+				<li>
+					<a href="fanqie.html" onclick="return false">番茄锅底</a>
+				</li>
+				<li>
+					<a href="chh.html" onclick="return false">极品翠黄喉锅底</a>
+				</li>
+				<li>
+					<a href="jxyr.html" onclick="return false">精选涮羊肉锅底</a>
+				</li>
+				<li>
+					<a href="md.html" onclick="return false">毛肚锅底</a>
+				</li>
+				<li>
+					<a href="fein.html" onclick="return false">上岛肥牛锅底</a>
+				</li>
+				<li>
+					<a href="sucai.html" onclick="return false">蔬菜拼盘锅底</a>
+				</li>
+				<li>
+					<a href="sbw.html" onclick="return false">四宝丸锅底</a>
+				</li>
+				<li>
+					<a href="yc.html" onclick="return false">鸭肠锅底</a>
+				</li>
+				<li>
+					<a href="sj.html" onclick="return false">野生笋尖锅底</a>
+				</li>
+				<li>
+					<a href="yy.html" onclick="return false">鸳鸯锅底</a>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<iframe src="sucai.html" width="100%" height="auto" frameborder="no" onload="setIframeHeight(this)"></iframe>
+		<div>
+			<img src="images/tonggu05.png"/>
+		</div>
+			
+		<div>
+			<img src="images/tonggu06.png"/>
+		</div>
+		<div class="top">
+			<img src="images/top.png"/>
+		</div>
+	</body>
+	
+	<script type="text/javascript">
+			function setIframeHeight(iframe) {
+			if (iframe) {
+				var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+				if (iframeWin.document.body) {
+					iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+					}
+				}
+			};
+			setIframeHeight();
+	</script>
+	<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".nav li a").click(function(){
+			var href = $(this).attr("href");
+			$("iframe").attr("src",href);
+		});
+		$(".top").click(function(){
+			$(window).scrollTop(0)
+		});
+	</script>
+</html>
