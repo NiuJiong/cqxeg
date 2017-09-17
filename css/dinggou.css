@@ -1,0 +1,87 @@
+img{
+	display: block;
+}
+
+.guodi{
+	background: #121335;
+	padding: 0 0.5rem;
+}
+
+.guodi ul li{
+	font-size: 0;
+	padding: 0.5rem;
+	background: #171843;
+	border: 1px solid #1E3967;
+	margin-bottom: 0.5rem;
+}
+.guodi ul li>div{
+	display: inline-block;
+}
+.guodi .img{
+	width: 8.36rem;
+	vertical-align: middle;
+}
+.guodi .tex{
+	width: 7rem;
+	margin-left: 0.52rem;
+	vertical-align: middle;
+}
+.guodi .tex:nth-child(odd){
+	margin-left: 0;
+	margin-right: 0.52rem;
+}
+.guodi ul li:last-child{
+	margin: 0;
+}
+.guodi .tex p:nth-child(1){
+	color: #EEEEF0;
+	font-size: 0.672rem;
+	margin-bottom: 0.2rem;
+}
+.guodi .tex p:nth-child(2){
+	color: #B0B0B6;
+	font-size: 0.48rem;
+	transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	margin-left: -5%;
+	margin-right: -5%;
+	margin-bottom: 0.2rem;
+}
+.guodi .tex p:nth-child(3){
+	font-size: 0.48rem;
+	color: #DCDCE2;
+	transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	margin-left: -5%;
+	margin-right: -5%;
+}
+.guodi .tex p:nth-child(3) span{
+	font-size: 0.72rem;
+}
+.guodi .tex p:nth-child(4){
+	font-size: 0.48rem;
+	color: #fef194;
+	transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	margin-left: -5%;
+	margin-right: -5%;
+	padding: 0.2rem 0;
+}
+.guodi .tex button{
+	border: none;
+	background: #FFF995;
+	color: black;
+	font-size: 0.48rem;
+	transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	padding: 0.1rem 0.3rem;
+	border-radius:3px;
+}

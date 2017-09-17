@@ -1,0 +1,94 @@
+body{
+	background: url(../images/jiamengbanner.png) no-repeat 0 0;
+	background-size:100% auto;
+	
+}
+.jiaru{
+	margin-top: 27rem;
+	font-size: 0.864rem;
+	color: #FFFBB4;
+	text-align: center;
+}
+.jiaru p:nth-child(2){
+	font-size: 0.336rem;
+	color: #EEE6A3;
+	padding: 0.5rem 0;
+}
+.jiaru p:nth-child(3){
+	font-size: 0.528rem;
+	color: #F8F4AF;
+	padding:  0.5rem;
+	text-align: left;
+	text-indent: 2em;
+	background: url(../images/ajimeng01.png) no-repeat center center;
+	background-size:100% 100%;
+}
+
+
+
+.jiamengtwo img{
+	display: block;
+}
+.zixun{
+	background: url(../images/jiameng05.png) no-repeat center 100%;
+	background-size:100% auto;
+	padding-bottom: 9rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-top: 1.5rem;
+}
+.zixun p{
+	color: #FFFBB4;
+	font-size: 0.864rem;
+}
+.zixun p:nth-child(2){
+	font-size: 0.336rem;
+}
+
+.zixun p:nth-child(2) span:nth-child(2){
+	font-size: 0.6rem;
+	margin-left: 1rem;
+}
+.zixun button{
+
+	display: block;
+	background: linear-gradient(left top,#FFFBB4,#AF824B);
+	background: -moz-linear-gradient(left top,#FFFBB4,#AF824B);
+	background: -ms-linear-gradient(left top,#FFFBB4,#AF824B);
+	background: -webkit-linear-gradient(left top,#FFFBB4,#AF824B);
+	padding: 0.5rem 1rem;
+	color: #1F1D24;
+	letter-spacing: 0.5rem;
+	padding-left:1.5rem;
+	font-size: 0.528rem;
+	margin: auto;
+	border: none;
+	border-radius:5px;
+	margin-top: 1rem;
+}
+.zixun form{
+	border: 1px solid #8A8769;
+	padding: 0.9rem;
+	color: #CCC993;
+	font-size: 0.528rem;
+	margin-top: 1rem;
+}
+.zixun form input{
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #CCC993;
+	color: #CCC993;
+}
+.zixun form div{
+	margin-bottom: 0.5rem;
+}
+.zixun form div:nth-child(1) input{
+	width: 8rem;
+}
+.zixun form div:nth-child(2) input{
+	width: 2rem;
+}
+.zixun form div:nth-child(n+3) input{
+	width: 6rem;
+}

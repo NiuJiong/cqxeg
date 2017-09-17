@@ -3,6 +3,7 @@ body,html,h1,h2,h3,h4,h5,h6,p,ul,li,a{
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
+	font-family: pingfang;
 }
 img{
 	width: 100%;
@@ -26,12 +27,22 @@ a:focus,a:active{
 .clearlr{
 	zoom: 1;
 }
+@font-face {
+	font-family:pingfangb;
+	src: url("../font/PingFang Bold.ttf");
+}
+@font-face {
+	font-family:pingfang;
+	src: url("../font/PingFang Medium.ttf");
+}
+
+
 
 
 
 .nav{
-	position: ;	
 	background: black;
+	margin-bottom: 30px;
 }
 .nav ul li{
 	float: left;

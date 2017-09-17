@@ -1,0 +1,131 @@
+body {
+	background-color: #222222;
+}
+
+.qiyejianjie {
+	margin: 0 0.8rem 0 0.8rem;
+	padding: 1.5rem 0.8rem;
+	background: url(../images/jianjie02.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin-top: -2rem;
+}
+
+.qiyejianjie p {
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+
+.qiyejianjie p:nth-child(1) {
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 0.2rem;
+}
+
+.qiyejianjie p:nth-child(2) {
+	font-size: 0.288rem;
+	margin-bottom: 1rem;
+}
+
+.qiyejianjie p:nth-child(1),
+.qiyejianjie p:nth-child(2) {
+/*	background-image: -webkit-linear-gradient(left top, #FFFBB6, #725737, #725737 50%);*/
+	/*-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-background-size: 500% 100%;*/
+	color: #FFFBB6;
+}
+
+.qiyejianjie p:nth-child(n+3) {
+	text-align: left;
+	text-indent: 2em;
+	font-size: 0.528rem;
+	letter-spacing: 1px;
+	line-height: 0.9rem;
+}
+.qiyejianjie p:nth-child(3){
+	
+	color: #FDF8B2;
+} 
+.qiyejianjie p:nth-child(4){
+	
+	color: #ECDE9B;
+}
+.qiyejianjie p:nth-child(5){
+	
+	color: #CEB174;
+}
+.qiyejianjie p:nth-child(6){
+	color: #B48951;
+}
+.imgtwo{
+	margin: 0.5rem 1.5rem 0 1.5rem;
+	
+}
+.imgtwo .text{
+	margin-top: -2rem;
+}
+.imgtwo .text>p{
+	color: #FFFBB6;
+	font-size: 0.864rem;
+	
+}
+.imgtwo .text>p:nth-child(2){
+	font-size: 0.528rem;
+}
+.imgtwo .text ul{
+	margin-top:0.8rem;
+	background: url(../images/jianjie05.png) no-repeat center center;
+	background-size:100% 100%;
+	padding: 0.5rem 0;
+	font-size: 0.4rem;
+	color: #CECA93;
+}
+
+
+.video{
+	margin-top: 1rem;
+	padding: 0 0.5rem;
+}
+.video img{
+	display: block;
+}
+.video p{
+	font-size: 0.48rem;
+	color: #FDF9B3;
+	padding: 0.5rem 0;
+}
+
+.video p span{
+	color: #754A16;
+}
+
+
+
+.zhanshi{
+	padding: 0.5rem;
+	color: #FDF9B3;
+	font-size: 0.48rem;
+}
+.zhanshi p{
+	padding: 0.5rem 0;
+}
+.zhanshi img{
+	display: block;
+}
+.zhanshi p:nth-child(2){
+	text-align: center;
+	font-size: 1rem;
+	padding: 0;
+	margin-top: 1rem;
+}
+.zhanshi p:nth-child(3){
+	text-align: center;
+	padding: 0;
+	padding-bottom: 0.5rem;
+}
+.zhanshi .imgfive img{
+	margin-bottom: 0.5rem;
+	/*padding-top: 0.5rem;
+	background: url(../images/jianjie07.png) no-repeat 0 0;
+	background-size:100% 100%;*/
+}
