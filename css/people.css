@@ -1,0 +1,132 @@
+body{
+	background-color: #020202;
+	
+/*	background-size:5rem auto;*/
+}
+
+
+.bigone{
+	background: url(../images/bigban.png) no-repeat center center;
+	background-color: #020202;
+	background-size: 100% 100%;
+}
+
+.bigone p{
+	width:80%;
+	margin: auto;
+	color: #FFFBB4;
+	text-align: center;
+	font-family: hyx;
+	font-size: 1.32rem;
+	padding-top: 11.5rem;
+	padding-bottom: 0.1rem;
+}
+.bigone img{
+	display: block;
+	width: 2rem;
+	margin: auto;
+	padding-bottom: 10rem;
+}
+.bigone p:nth-child(2){
+	font-size: 0.5rem;
+	padding-top: 0;
+	padding-bottom: 4rem;
+	font-family: "楷体";
+}
+#two{
+	
+}
+.renwu img{
+	display: block;
+}
+
+.tex{
+	color: #FCFBFC;
+	padding: 0 2rem;
+	padding-top: 12.768rem;
+}
+
+.tex>div:nth-child(1) div{
+	float: left;
+	width: 3.792rem;
+	font-size: 0.96rem;
+	font-family: "hyx";
+}
+.tex>div:nth-child(1) ul{
+	float: left;
+	width: 10.2rem;
+	font-size: 0.576rem;
+	position: relative;
+}
+.tex>div:nth-child(1) ul:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: -0.5rem;
+	bottom: 0;
+	width: 1px;
+	background: white;
+}
+.tex>div:nth-child(1) ul li:not(:last-child){
+	float: left;
+	width: 10.2rem;
+	font-size: 0.576rem;
+	font-family: "hyx";
+	margin-bottom: 0.8rem;
+	font-weight: 100;
+}
+.tex>div:nth-child(2){
+	margin-top: 1rem;
+	text-indent: 2em;
+	font-size:0.628rem ;	
+	line-height: 1rem;
+	padding-bottom: 2rem;
+}
+.logo{
+	width: 5rem;
+	margin: auto;
+	margin-top: 7rem;
+}
+.swiper-pagination{
+	color: white !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom:0;
+	z-index: 99999;
+}
+.swiper-wrapper .bac:nth-child(1) .tex{
+	background: url(../images/renwu01.png) no-repeat center 0;
+	background-size:100% auto;
+}
+.swiper-wrapper .bac:nth-child(2) .tex{
+	background: url(../images/renwu02.png) no-repeat center 0;
+	background-size:100% auto;
+}
+.swiper-wrapper .bac:nth-child(3) .tex{
+	background: url(../images/renwu03.png) no-repeat center 0;
+	background-size:100% auto;
+}
+.swiper-wrapper .bac:nth-child(4) .tex{
+	background: url(../images/renwu04.png) no-repeat right 0;
+	background-size:100% auto;
+}
+.swiper-wrapper .bac:nth-child(5) .tex{
+	background: url(../images/renwu05.png) no-repeat center 0;
+	background-size:100% auto;
+}
+.swiper-wrapper .bac:nth-child(6) .tex{
+	background: url(../images/renwu06.png) no-repeat center 0;
+	background-size:100% auto;
+}
+.swiper-wrapper .bac:nth-child(7) .tex{
+	background: url(../images/renwu07.png) no-repeat center 0;
+	background-size:100% auto;
+}
+.swiper-wrapper .bac:nth-child(8) .tex{
+	background: url(../images/renwu08.png) no-repeat center 0;
+	background-size:100% auto;
+}
+.swiper-wrapper .bac:nth-child(9) .tex{
+	background: url(../images/renwu09.png) no-repeat center 0;
+	background-size:100% auto;
+}

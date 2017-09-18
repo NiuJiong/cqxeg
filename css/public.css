@@ -35,6 +35,10 @@ a:focus,a:active{
 	font-family:pingfang;
 	src: url("../font/PingFang Medium.ttf");
 }
+@font-face {
+	font-family:hyx;
+	src: url("../font/HYX4GFM.TTF");
+}
 
 
 

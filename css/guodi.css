@@ -1,1 +1,12 @@
-
+body{
+	background: #060606;
+}
+img{
+	display: block;
+}
+.swiper-slide{
+	/*padding-bottom: 1rem;*/
+}
+.swiper-pagination{
+	color: white;
+}
