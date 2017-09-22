@@ -85,8 +85,13 @@ body {
 .video{
 	margin-top: 1rem;
 	padding: 0 0.5rem;
+	border: 1px solid red;
+	
 }
-.video img{
+.video video{
+	
+}
+/*.video img{
 	display: block;
 }
 .video p{
@@ -97,7 +102,7 @@ body {
 
 .video p span{
 	color: #754A16;
-}
+}*/
 
 
 
